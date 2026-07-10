@@ -1110,21 +1110,20 @@ a:focus-visible {
 
 
 .siteFooter {
-  position: fixed;
+  position: relative;
   z-index: 25;
-  left: 50%;
-  bottom: max(8px, env(safe-area-inset-bottom));
-  width: min(860px, calc(100% - 32px));
-  transform: translateX(-50%);
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 0 10px 22px;
+
   color: rgba(255, 225, 233, 0.62);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.73rem;
   font-style: italic;
   letter-spacing: 0.035em;
   line-height: 1.4;
-  text-align: center;
+  text-align: right;
   text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
-  pointer-events: none;
 }
 
 @keyframes breathe {
@@ -1222,9 +1221,10 @@ a:focus-visible {
 
 @media (max-width: 680px) {
   .siteFooter {
-    bottom: max(5px, env(safe-area-inset-bottom));
     width: calc(100% - 24px);
+    padding: 0 4px 16px;
     font-size: 0.64rem;
+    text-align: right;
   }
 
   .wordmark { font-size: 0.61rem; letter-spacing: 0.14em; }
