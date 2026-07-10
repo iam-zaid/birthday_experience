@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Opening memory placeholder</title>
+  <desc id="desc">Replace this file with your own photograph while keeping the same filename.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8b09d"/>
+      <stop offset="0.46" stop-color="#6d9e9a"/>
+      <stop offset="1" stop-color="#0c3440"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#ffe6bf" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#ffe6bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#sun)"/>
+  <path d="M0 780 C180 720 310 850 480 790 C650 730 730 805 900 755 L900 1200 L0 1200Z" fill="#0b2c38" fill-opacity=".72"/>
+  <path d="M0 815 C210 760 300 900 500 825 C670 760 760 830 900 790" fill="none" stroke="#f4dfb6" stroke-opacity=".52" stroke-width="3"/>
+  <g fill="none" stroke="#f7eee0" stroke-opacity=".55">
+    <path d="M120 985 C155 890 175 790 169 620"/>
+    <path d="M169 720 C230 700 264 652 258 600 C202 617 170 666 169 720Z"/>
+    <path d="M156 820 C101 792 78 745 89 700 C143 721 169 770 156 820Z"/>
+  </g>
+  <text x="450" y="490" text-anchor="middle" fill="#fffaf3" font-family="Georgia, serif" font-size="56">Your opening memory</text>
+  <text x="450" y="548" text-anchor="middle" fill="#fffaf3" fill-opacity=".72" font-family="Arial, sans-serif" font-size="22" letter-spacing="4">REPLACE THIS IMAGE</text>
+</svg>

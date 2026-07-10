@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">THIRD TIDE placeholder</title>
+  <desc id="desc">Use as video poster</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c89c8c"/>
+      <stop offset=".52" stop-color="#527e86"/>
+      <stop offset="1" stop-color="#102a35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="-5%" r="70%">
+      <stop offset="0" stop-color="#ffe8c9" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#ffe8c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <circle cx="945" cy="185" r="115" fill="#ffe7bd" fill-opacity=".28"/>
+  <path d="M0 575 C210 500 360 640 570 560 C800 472 940 630 1200 540 L1200 900 L0 900Z" fill="#092732" fill-opacity=".62"/>
+  <path d="M0 620 C210 545 380 690 600 600 C835 505 970 650 1200 580" fill="none" stroke="#f5dfb6" stroke-opacity=".46" stroke-width="3"/>
+  <path d="M80 735 C230 705 325 750 445 720 M715 725 C835 690 970 720 1120 680" fill="none" stroke="#d9f0e8" stroke-opacity=".23" stroke-width="2"/>
+  <g fill="none" stroke="#fff6e8" stroke-opacity=".38">
+    <path d="M103 770 C130 682 140 570 132 470"/>
+    <path d="M132 556 C190 540 221 500 216 455 C164 469 134 511 132 556Z"/>
+    <path d="M126 650 C80 625 61 584 69 545 C115 565 139 608 126 650Z"/>
+  </g>
+  <text x="600" y="350" text-anchor="middle" fill="#fffaf3" font-family="Georgia, serif" font-size="78">THIRD TIDE</text>
+  <text x="600" y="410" text-anchor="middle" fill="#fffaf3" fill-opacity=".72" font-family="Arial, sans-serif" font-size="21" letter-spacing="5">USE AS VIDEO POSTER</text>
+</svg>
