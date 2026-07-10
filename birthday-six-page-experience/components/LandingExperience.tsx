@@ -41,14 +41,14 @@ export function LandingExperience() {
     { number: "01", label: "Home", subtitle: "You are here", href: "/", unlocked: true },
     {
       number: "02",
-      label: "First experience",
+      label: "Here we go!",
       subtitle: "The beginning",
       href: "/first_experience/",
       unlocked: true,
     },
     {
       number: "03",
-      label: "11th Day",
+      label: "Remember the Third Wave?",
       subtitle: !day11ProgressReady
         ? "Complete the first experience"
         : !day11DateReady
@@ -59,7 +59,7 @@ export function LandingExperience() {
     },
     {
       number: "04",
-      label: "12th Day",
+      label: "Things you like!",
       subtitle: !day12ProgressReady
         ? "Complete the 11th Day page"
         : !day12DateReady
