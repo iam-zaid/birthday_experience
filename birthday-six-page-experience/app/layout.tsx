@@ -3,8 +3,8 @@ import { SITE_CONTENT } from "@/content/siteContent";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "A Little World for You",
-  description: "A private six-page birthday keepsake.",
+  title: "A Little Gift for You",
+  description: "This is Himna's Birthday Gift Experience",
   robots: {
     index: false,
     follow: false,

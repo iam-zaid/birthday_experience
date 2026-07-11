@@ -22,7 +22,7 @@ export const PAGES_VISITED_KEY = "pages_visited";
  *   Uses the real date in Asia/Kolkata and unlocks pages at 12:00 AM IST.
  */
 export const DATE_GATE_MODE: DateGateMode = "production";
-export const TEST_IST_DATE = "2026-07-12";
+export const TEST_IST_DATE = "2026-07-13";
 
 const PAGE_UNLOCK_DATES: Record<DateGatedPage, string> = {
   day11: "2026-07-11",
