@@ -59,7 +59,7 @@ export function LandingExperience() {
     },
     {
       number: "04",
-      label: "Things you like!",
+      label: "The one about you!",
       subtitle: !day12ProgressReady
         ? "Complete the 11th Day page"
         : !day12DateReady
@@ -70,7 +70,7 @@ export function LandingExperience() {
     },
     {
       number: "05",
-      label: "13th Day",
+      label: "The one with 70 beans",
       subtitle: !day13ProgressReady
         ? "Complete the 12th Day page"
         : !day13DateReady
@@ -81,12 +81,12 @@ export function LandingExperience() {
     },
     {
       number: "06",
-      label: "Birthday",
+      label: "The one about your Birthday",
       subtitle: !birthdayProgressReady
         ? "Complete the 13th Day page"
         : !birthdayDateReady
           ? "Opens 14 July · 12:00 AM IST"
-          : "The final page",
+          : "Open for surprise!",
       href: "/birthday/",
       unlocked: birthdayProgressReady && birthdayDateReady,
     },
@@ -105,7 +105,6 @@ export function LandingExperience() {
                 <div className="heroImageWrap">
                   <img src="/media/photos/opening-memory.png" alt="Opening memory placeholder" />
                   <div className="heroImageShade" />
-                  <div className="heroDateMark">Made for you</div>
                 </div>
 
                 <div className="heroCopy landingHeroCopy">
@@ -122,7 +121,7 @@ export function LandingExperience() {
                 <section className="panel countPanel homeCountdownPanel">
                   <p className="kicker">Countdown to your birthday</p>
                   <BirthdayCountdown />
-                  <p className="finePrint">The countdown is calculated against midnight on 14 July in Indian Standard Time.</p>
+                  <p className="finePrint">The countdown towards ultimate happiness!</p>
                 </section>
 
                 <section className="panel timelinePanel pageNavigationPanel">

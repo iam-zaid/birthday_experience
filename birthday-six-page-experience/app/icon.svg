@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Flower bouquet">
+  <defs>
+    <linearGradient id="background" x1="8" y1="5" x2="56" y2="59">
+      <stop offset="0" stop-color="#f4bfd0"></stop>
+      <stop offset="1" stop-color="#9f526f"></stop>
+    </linearGradient>
+
+    <linearGradient id="wrap" x1="25" y1="32" x2="40" y2="60">
+      <stop offset="0" stop-color="#f5dfb1"></stop>
+      <stop offset="1" stop-color="#c79d5d"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#background)"></rect>
+
+  <path d="M31 52C30 43 27 35 22 27M33 52C34 42 38 34 43 26M32 51V24" fill="none" stroke="#527d70" stroke-width="3" stroke-linecap="round"></path>
+
+  <circle cx="21" cy="23" r="8" fill="#f8d2dc"></circle>
+  <circle cx="43" cy="22" r="8" fill="#f1a9be"></circle>
+  <circle cx="32" cy="18" r="9" fill="#fff0f4"></circle>
+
+  <circle cx="21" cy="23" r="3" fill="#ddb86d"></circle>
+  <circle cx="43" cy="22" r="3" fill="#ddb86d"></circle>
+  <circle cx="32" cy="18" r="3.5" fill="#ddb86d"></circle>
+
+  <path d="M22 38L32 57L43 37C38 40 27 40 22 38Z" fill="url(#wrap)"></path>
+
+  <path d="M28 47L21 43M36 47L44 42" fill="none" stroke="#8db5a7" stroke-width="3" stroke-linecap="round"></path>
+
+  <path d="M50 10L51.4 13.6L55 15L51.4 16.4L50 20L48.6 16.4L45 15L48.6 13.6Z" fill="#fff7dd"></path>
+</svg>
