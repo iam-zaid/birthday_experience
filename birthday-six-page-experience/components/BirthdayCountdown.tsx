@@ -41,8 +41,8 @@ export function BirthdayCountdown() {
     return (
       <div className="birthdayReached">
         <span>✦</span>
-        <strong>It is your birthday in India.</strong>
-        <small>The final page is ready whenever the journey is complete.</small>
+        <strong>Happy Birthday, beautiful!</strong>
+        <small>Your birthday page is now waiting for you.</small>
       </div>
     );
   }

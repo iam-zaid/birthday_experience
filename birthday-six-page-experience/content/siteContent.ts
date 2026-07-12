@@ -86,27 +86,36 @@ export const DAY_13_CONTENT: DayPageContent = {
   routeLabel: "13th Day",
   dayLabel: "The one with 70 beans",
   title: "70 beans, Viviana, Zudio and You ",
-  teaser: "A voice note or a short video belongs behind today’s page.",
+  teaser: "Ready to impress?",
   message: [
-    "[Introduce the recording or video here.]",
-    "[Add the media file to public/media and update this object.]",
+    `By now you must be expecting the same old note and details, par here is the twist. Aaj tum humari baatein padhoge nahi par apne shabdon me mujhe bataoge. Memories will be the same, details will also be the same but perspective and zubaan aapki rahegi. So here we go!`,
+
+    `1. 70 beans cafe me what exactly happened and your reaction to the day.`,
+    `2. What made us decide to go for shopping in Zudio`,
+    `3. Did you or did you not help me pick clothes in Zudio?`,
+    `4. Why did we decide to meet in Viviana again? (PS: jab hume pata tha AC nahi chal rha!!)`,
+    `Well itna kuch sunke ke baad I dont think aur bhi lines sunna chahoge, isiliye aaj koi lines nahi. But just one day to go and really excited for everything eh? Well I am, but that day will have one of my originals mentioned for you. So stay tuned for tomorrow!`
   ],
-  mediaType: "video",
-  mediaSrc: "",
-  posterSrc: "/media/photos/day-2.svg",
+  mediaType: "photo",
+  mediaSrc: "/media/photos/day-2.png",
 };
 
 export const BIRTHDAY_CONTENT: DayPageContent = {
   routeLabel: "Birthday",
-  dayLabel: "14 July",
-  title: "Happy birthday, my love.",
+  dayLabel: "Its your Birthday!",
+  title: "Happy birthday, Himna",
   teaser: "Every previous page is open, and the final one has been waiting for you.",
   message: [
-    "[Place your complete birthday wish here.]",
-    "[Add another paragraph about what you admire, value, or hope to celebrate together.]",
-    "[Finish with your own sign-off.]",
+    `This is the final page of this small gift and it is just a wish from me. I thought of writing a lot lekin maine already bohot likh diya hai yaha. 
+    One thing I want to highlight today is this is your day, enjoy to your fullest! Whatever I wanted to say about you, I already have written it. And afterall 'Husn-e Jaana ki taarif mumkin nahi.. Afreen Afreen '
+    Keeping this short here is last few lines from my end:`,
+
+    `Apne Mubarak din ko Khushiyon se sarshaar kijiye`,
+    `Apne aap me chupi khoobiyon ko Numayan kijiye`,
+    `Aapki aamad ka manzar hi kuch aisa tha, ae Himna`,
+    `Phoolon se hawaon ne kaha "Ab toh bahaar kar dijiye"`,
+    `Thank you for being patient to go through everything Himna! You are one of a gem person and deserve the best in your life. I will always pray that you get the best of best in life (means me haha ;) jk). With that hum iss gift ko end karte hai and Happy Birthday!!!`
   ],
-  mediaType: "video",
-  mediaSrc: "",
-  posterSrc: "/media/photos/day-0.svg",
+  mediaType: "photo",
+  mediaSrc: "/media/photos/day-0.png"
 };
