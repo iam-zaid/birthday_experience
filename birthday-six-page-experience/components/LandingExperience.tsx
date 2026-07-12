@@ -81,7 +81,7 @@ export function LandingExperience() {
     },
     {
       number: "06",
-      label: "The one about your Birthday",
+      label: "The one where its your Birthday",
       subtitle: !birthdayProgressReady
         ? "Complete the 13th Day page"
         : !birthdayDateReady
